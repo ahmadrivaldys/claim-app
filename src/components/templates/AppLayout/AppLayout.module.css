@@ -1,0 +1,34 @@
+.container
+{
+    width: 1200px;
+    margin: auto;
+}
+
+.main
+{
+    min-height: 100vh;
+    padding: 25px;
+    position: relative;
+}
+
+.title
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.back
+{
+    position: absolute;
+    padding: 10px 25px;
+    border: 1px solid #90CAF9;
+    border-radius: 7px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.back:hover
+{
+    cursor: pointer;
+    background-color: #BBDEFB;
+}

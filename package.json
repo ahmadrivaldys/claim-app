@@ -6,18 +6,21 @@
     "author": "Ahmad Rivaldy Sudrajat",
     "scripts":
     {
-        "dev": "next dev",
+        "dev": "concurrently --kill-others \"next dev\" \"npm run api-serve\"",
         "build": "next build",
         "start": "next start",
-        "lint": "next lint"
+        "lint": "next lint",
+        "api-serve": "json-server --watch db.json --port 3005"
     },
     "dependencies":
     {
+        "concurrently": "^7.6.0",
         "eslint": "8.28.0",
         "eslint-config-next": "13.0.4",
         "json-server": "^0.17.1",
         "next": "13.0.4",
         "react": "18.2.0",
-        "react-dom": "18.2.0"
+        "react-dom": "18.2.0",
+        "react-images-uploading": "^3.1.7"
     }
 }

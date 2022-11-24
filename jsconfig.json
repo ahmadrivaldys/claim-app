@@ -5,18 +5,9 @@
         "paths":
         {
             "claim-app/components": ["src/components"],
-            "claim-app/images": ["src/images"],
+            "claim-app/images": ["src/assets/images"],
             "claim-app/styles": ["src/assets/styles"],
-
-            // "zentla/icons/heroicons": ["src/assets/icons"],
-            // "zentla/images": ["src/assets/images"],
-            // "zentla/styles/*": ["src/assets/styles/*"],
-            // "zentla/components": ["src/components"],
-            // "zentla/utils": ["src/utils"],
-            // "zentla/database": ["config/database"],
-            // "zentla/models": ["config/models"],
-            // "zentla/auth-api": ["middlewares/api"],
-            // "zentla/auth-pages": ["middlewares/pages"]
+            "claim-app/utils": ["src/utils"]
         }
     }
 }

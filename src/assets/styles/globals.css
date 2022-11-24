@@ -15,7 +15,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +23,11 @@ a {
     color: white;
     background: black;
   }
+} */
+
+.value
+{
+    display: block;
+    color: #555555;
+    margin-left: 5px;
 }
